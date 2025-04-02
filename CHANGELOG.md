@@ -1,5 +1,16 @@
 # DataLab Simple Client Releases #
 
+## Version 0.11.0 ##
+
+DataLab Simple Client is fully compatible with **DataLab 0.19.0** and above.
+With older versions of the DataLab server, some features may not work.
+
+💥 Changes:
+
+* Remote API (`SimpleRemoteProxy`):
+  * Added `add_group` method (new in DataLab 0.19.0)
+  * `get_object_uuids` method: added `group` argument to filter by group ID, title or number (new in DataLab 0.19.0)
+
 ## Version 0.10.1 ##
 
 🛠️ Bug fixes:
